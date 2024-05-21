@@ -2,9 +2,9 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 import sys
-import requests  # type: ignore
+import requests
 import json
-from dotenv import load_dotenv  # type: ignore
+from dotenv import load_dotenv
 from typing import Optional, List, Dict
 
 # Load environment variables from a .env file
