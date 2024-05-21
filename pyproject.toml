@@ -5,7 +5,7 @@ description = "A python script to easily configure Gitea mirror repositories of 
 authors = ["mauvehed <nate@mvh.dev>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "github_gitea_mirror"}]
+packages = [{include = "github-gitea-mirror"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
