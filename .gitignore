@@ -136,8 +136,9 @@ venv/
 *.vmss
 *.dex
 
-# keys and passwords and config files that contain them
-#*.aws
+# keys, secrets, passwords and config files that contain them
+.aws/credentials
+.env
 *.rsa
 *.dsa
 *.asc
@@ -202,8 +203,32 @@ _site
 #.github/
 .vscode/
 .dccache
-__pycache__
+__pycache__/
 
-# Secrets
-.aws/credentials
-.env
+# Python
+*.py[cod]
+*$py.class
+
+# Poetry
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Output files
+dist/
+build/
