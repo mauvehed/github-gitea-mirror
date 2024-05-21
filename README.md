@@ -22,8 +22,8 @@ This script mirrors repositories from GitHub to Gitea. It allows you to automati
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/mauvehed/github-gitea-mirror.git
+   cd github-gitea-mirror
 
 2. **Install dependencies**:
 
