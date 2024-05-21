@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "github-gitea-mirror"
+version = "0.1.0"
+description = "A python script to easily configure Gitea mirror repositories of all of your GitHub repositories"
+authors = ["mauvehed <nate@mvh.dev>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "github_gitea_mirror"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "2.32.1"
+python-dotenv = "1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "1.10.0"
+types-requests = "2.32.0.20240521"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
